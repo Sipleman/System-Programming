@@ -51,8 +51,8 @@ int main(int argc, char *argv[]){
     int all_data = start_rewriting(descr_file_from, descr_file_to);
 
     close(descr_file_from);
-    close(descr_file_to);
-
+    close(descr_file_to)
+;
     printf("All rewriten bytes: %d\n", all_data);
 
     return 0;
